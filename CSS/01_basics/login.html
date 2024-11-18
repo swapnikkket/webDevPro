@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #1a1a1a;
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .Login {
+        background-color: #d65555;
+        border-radius: 5px;
+        padding: 50px;
+        height: 200px;
+        width: 200px;
+      }
+      h1 {
+        text-align: center;
+        color: rgb(116, 233, 122);
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      input {
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid rgb(0, 0, 0);
+      }
+      button {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgb(51, 176, 51);
+      }
+      button:hover {
+        background-color: green;
+      }
+    </style>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="Login">
+      <form>
+        <h1>Login</h1>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Your password"
+        />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
